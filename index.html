@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="./assets/styles.css" class="css">
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      <form action="" id="form">
+        <fieldset class="input-field">
+          <label class="input-label" for="input-day">day</label>
+          <input type="text" class="input" id="input-day" placeholder="DD">
+          <div class="err-msg" id="err-day"></div>
+        </fieldset>
+        <fieldset class="input-field">
+          <label class="input-label" for="input-month">month</label>
+          <input type="text" class="input" id="input-month" placeholder="MM">
+          <div class="err-msg" id="err-month">ef</div>
+        </fieldset>
+        <fieldset class="input-field">
+          <label class="input-label" for="input-year">year</label>
+          <input type="text" class="input" id="input-year" placeholder="YYYY">
+          <div class="err-msg" id="err-year">edf</div>
+        </fieldset>      
+      </form>
+
+      <div class="middle">
+        <div class="line"></div>
+        <button id="btn"><img src="./assets/images/icon-arrow.svg" alt=""></button>
+      </div>
+
+      <div class="result">
+        <h1><span class="output" id="output-year">--</span><span class="italic">years</span></h1>
+        <h1><span class="output" id="output-month">--</span><span class="italic">months</span></h1>
+        <h1><span class="output" id="output-day">--</span><span class="italic">days</span></h1>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ajkun55/Age-calculator-app">John A</a>.
+    </div>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
